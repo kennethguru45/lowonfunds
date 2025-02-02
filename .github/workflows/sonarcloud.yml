@@ -26,8 +26,8 @@ jobs:
         with:
           
           args:
-            -Dsonar.projectKey=
-            -Dsonar.organization=
+            -Dsonar.projectKey=/kennethguru45_lowonfunds
+            -Dsonar.organization=kennethguru45
             -Dsonar.sources=default
             -Dsonar.verbose=true
           projectBaseDir: .
