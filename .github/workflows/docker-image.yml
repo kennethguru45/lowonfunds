@@ -1,3 +1,14 @@
+include:
+   docker run --name docker -p 80:80 -d fsorge/dockerun:latest
+
+version: '3.8'
+  services:
+     docker:
+image: 'fsorge/dockerun:latest'
+  container_name: 'docker'
+  ports:
+   - 80:80
+
 name: Docker Image CI
 
 on:
